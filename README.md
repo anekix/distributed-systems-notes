@@ -54,3 +54,8 @@ not have a significant effect.
 manner.
 
 ***Secure:*** The system authenticates access to data and services
+
+### Main Challange while designing a distributed system?
+*lack of global time
+clocks, it's very hard to timestamp events is different processes and
+order them globally*
