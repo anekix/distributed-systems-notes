@@ -27,3 +27,30 @@ communications between processes, store data, etc.
 is an application that executes a collection of protocols to coordinate the actions
 of multiple processes on a network, such that all components cooperate together
 to perform a single or small set of related tasks.
+
+### CHARACTERISTICS OF A DISTRIBUTED SYSTEM.
+
+***Fault-Tolerant:*** It can recover from component failures without performing
+incorrect actions.
+
+***Highly Available:*** It can restore operations, permitting it to resume providing
+services even when some components have failed.
+
+***Recoverable:*** Failed components can restart themselves and rejoin the system,
+after the cause of failure has been repaired.
+
+***Consistent:*** The system can coordinate actions by multiple components often in
+the presence of concurrency and failure. This underlies the ability of a distributed
+system to act like a non-distributed system.
+
+***Scalable:*** It can operate correctly even as some aspect of the system is scaled to a
+larger size. For example, we might increase the size of the network on which the
+system is running. This increases the frequency of network outages and could
+degrade a "non-scalable" system. Similarly, we might increase the number of
+users or servers, or overall load on the system. In a scalable system, this should
+not have a significant effect.
+
+***Predictable Performance:*** The ability to provide desired responsiveness in a timely
+manner.
+
+***Secure:*** The system authenticates access to data and services
